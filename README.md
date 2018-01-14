@@ -2,20 +2,15 @@
 
 A semantic design system to provide generic rules to some common design system found in multiple industries.
 
-## Examples
+## Inspired By
 
 * *Visual Design*: Atomic Design, Google's Material Design, IBM's Carbon Design System
-* *Software*: monolith codebases vs modular codebases. General import/export philosophies.
-* *Legal Systems*: Bill of Rights/Declaration/Constitution as primitives, Highway construction bill something way more complex.
-* *Music Composition*: Primitive Instruments. Complex patterns on top.
+* *Software*: Monolith codebases vs modular codebases. General import/export philosophies.
+* *Ontologies*: Used to limit complexity and organize information
+* *Semantic Networks*: Graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts.
+* *Frame language*: Artificial intelligence data structure used to divide knowledge into substructures by representing "stereotyped situations."
 
-### Inspired By
-
-* Ontologies
-* Semantic Networks
-* Frame language
-
-## Basic Rules
+## Premises
 
 * All these are just trees of patterns you mix together.
 * The patterns tend to be leveled by identifying complexity.
@@ -27,6 +22,16 @@ Level 1: basic variables/primitives/atoms
 Level 2: Combination of above atoms based of variable complexity.
 ... Level n: Combination of above atoms based of variable complexity, with amount of levels accounting for the delta in complexity.
 ```
+
+## Specification
+
+* These patterns can be leveled by numbers according to complexity.
+* The amount of levels speaks to the relationship and delta between different complex patterns.
+* The delta of complexity between different should be similar. (i.e. level-1 to level-2 complexity difference should be similar to level-4 to level-5)
+
+## Optional
+
+* Which levels the patterns can import from. One that comes to mind is "Can 5 only import from 4, or can it import 2, 4, & 5?".
 
 ## Examples
 
@@ -51,8 +56,6 @@ Level 2: Combination of above atoms based of variable complexity.
   level-4: Templates
   level-5: Pages
 ```
-
-Some of these may add more rules, like which levels the patterns can import from. One that comes to mind is "Can 5 only import from 4, or can it import 2, 4, & 5?".
 
 ## Comments
 
