@@ -27,7 +27,7 @@ Level 2: Combination of above atoms based of variable complexity.
 
 * These patterns can be leveled by numbers according to complexity.
 * The amount of levels speaks to the relationship and delta between different complex patterns.
-* The delta of complexity between different should be similar. (i.e. level-1 to level-2 complexity difference should be similar to level-4 to level-5)
+* The delta of complexity between different levels should be similar. (i.e. level-1 to level-2 complexity difference should be similar to level-4 to level-5)
 
 ## Optional
 
