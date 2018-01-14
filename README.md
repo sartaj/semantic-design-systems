@@ -1,14 +1,6 @@
 # Semantic Design System [Proposal]
 
-A semantic design system to provide generic rules to some common design system found in multiple industries.
-
-## Inspired By
-
-* *Visual Design*: Atomic Design, Google's Material Design, IBM's Carbon Design System
-* *Software*: Monolith codebases vs modular codebases. General import/export philosophies.
-* *Ontologies*: Used to limit complexity and organize information
-* *Semantic Networks*: Graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts.
-* *Frame language*: Artificial intelligence data structure used to divide knowledge into substructures by representing "stereotyped situations."
+A semantic design system to provide generic rules to some common design system found in multiple industries, like Atomic Design, Material Design, etc.
 
 ## Premises
 
@@ -56,6 +48,15 @@ Level 2: Combination of above atoms based of variable complexity.
   level-4: Templates
   level-5: Pages
 ```
+
+## Inspired By
+
+* *Visual Design*: Atomic Design, Google's Material Design, IBM's Carbon Design System
+* *Software*: Monolith codebases vs modular codebases. General import/export philosophies.
+* *Ontologies*: Used to limit complexity and organize information
+* *Semantic Networks*: Graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts.
+* *Frame language*: Artificial intelligence data structure used to divide knowledge into substructures by representing "stereotyped situations."
+
 
 ## Comments
 
