@@ -1,3 +1,5 @@
+# Semantic Design System [Proposal]
+
 A semantic design system to provide generic rules to some common design system found in multiple industries.
 
 ## Examples
