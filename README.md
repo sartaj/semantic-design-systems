@@ -1,4 +1,4 @@
-I've been trying to see if there is a more semantic way to describe design systems used throughout multiple industries, like visual design languages and computer architecture. 
+A semantic design system to provide generic rules to some common design system found in multiple industries.
 
 ## Examples
 
@@ -6,6 +6,12 @@ I've been trying to see if there is a more semantic way to describe design syste
 *Software*: monolith codebases vs modular codebases. General import/export philosophies.
 *Legal Systems*: Bill of Rights/Declaration/Constitution as primitives, Highway construction bill something way more complex.
 *Music Composition*: Primitive Instruments. Complex patterns on top.
+
+### Inspired By
+
+* Ontologies
+* Semantic Networks
+* Frame language
 
 ## Basic Rules
 
@@ -22,8 +28,6 @@ Level 2: Combination of above atoms based of variable complexity.
 
 Some of these may add more rules, like which levels the patterns can import from. One that comes to mind is "Can 5 only import from 4, or can it import 2, 4, & 5?".
 
-## Questions
+## Comments
 
-Is there anything in cognitive science. complexity theory, or related field that can speak to this phenomenon? LIke a Semantic Design System  or Semantic Design Tree? Specifically I was hoping something that was more generic or mathematical, not analogy based.
-
-Please add an issue to this github if you know.
+I would love to get peoples feedback on this. Please add an issue to this github if you know.
