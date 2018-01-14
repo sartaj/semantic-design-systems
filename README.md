@@ -2,10 +2,10 @@ A semantic design system to provide generic rules to some common design system f
 
 ## Examples
 
-*Visual Design*: Atomic Design, Google's Material Design, IBM's Carbon Design System
-*Software*: monolith codebases vs modular codebases. General import/export philosophies.
-*Legal Systems*: Bill of Rights/Declaration/Constitution as primitives, Highway construction bill something way more complex.
-*Music Composition*: Primitive Instruments. Complex patterns on top.
+* *Visual Design*: Atomic Design, Google's Material Design, IBM's Carbon Design System
+* *Software*: monolith codebases vs modular codebases. General import/export philosophies.
+* *Legal Systems*: Bill of Rights/Declaration/Constitution as primitives, Highway construction bill something way more complex.
+* *Music Composition*: Primitive Instruments. Complex patterns on top.
 
 ### Inspired By
 
