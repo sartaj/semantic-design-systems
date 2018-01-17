@@ -13,27 +13,9 @@ This guide is to help create base guidelines for categorizing different componen
 
 For more details on creating and implementing design systems, check [Design Better's Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/designing-design-system)
 
-## 3 Rules and a Formula
+## Diagram & Formula
 
-### Define the number of Stacks, from `𝟣-𝑛`
-
-Each level in a design system can be considered a Stack. For example, Atomic Design names their Atoms, Molecules, & Organisms. This naming is to indicate the increasing specificity of a pattern.
-
-A design system can have any number of Stacks, from 𝟣 to 𝑛, with each higher stack having less reusability and more specificity.
-
-### Categorize the complexity of patterns by `Specificity ↔ Dependency`
-
-While categorizing the complexity of patterns, they can be imagined as a scale between how specific a pattern is, and how depended upon a pattern is.
-
-Try to find a pattern in how specific a design is. In larger stack systems (4+ Stacks), `stack-𝑛` may be a single use pattern, like Pages in Atomic Design. In smaller systems (2 Stacks), `stack-2` may only be a bit more specific, like Pattern Components in Google's Material Design.
-
-### Keep a consistent `Complexity Δ` (delta)
-
-The amount of difference in complexity. i.e. a Button has a large Δ in complexity than a News Feed, but a Button has a small Δ in complexity vs a Simple Search.
-
-As more Stacks are added, the Complexity Δ between different Stacks should be similar. (i.e. `stack-1` to `stack-2` Complexity Δ should be similar to `stack-4` to `stack-5`)
-
-### Formula
+![Semantic Design System Diagram](https://github.com/sartaj/semantic-design-systems/raw/master/assets/semantic-design-system.png)
 
 ```
 ∑𝟣…𝑛
@@ -41,9 +23,25 @@ As more Stacks are added, the Complexity Δ between different Stacks should be s
   = complexityΔ(stack(𝑛﹢𝟣), stack(𝑛﹢𝟤))
 ```
 
-### Diagram
+## 3 Rules
 
-![Semantic Design System Diagram](https://github.com/sartaj/semantic-design-systems/raw/master/assets/semantic-design-system.png)
+### 1. Define the number of Stacks, from `𝟣-𝑛`
+
+Each level in a design system can be considered a Stack. For example, Atomic Design names their Atoms, Molecules, & Organisms. This naming is to indicate the increasing specificity of a pattern.
+
+A design system can have any number of Stacks, from 𝟣 to 𝑛, with each higher stack having less reusability and more specificity.
+
+### 2. Categorize the complexity of patterns by `Specificity ↔ Dependency`
+
+While categorizing the complexity of patterns, they can be imagined as a scale between how specific a pattern is, and how depended upon a pattern is.
+
+Try to find a pattern in how specific a design is. In larger stack systems (4+ Stacks), `stack-𝑛` may be a single use pattern, like Pages in Atomic Design. In smaller systems (2 Stacks), `stack-2` may only be a bit more specific, like Pattern Components in Google's Material Design.
+
+### 3. Keep a consistent `Complexity Δ` (delta)
+
+The amount of difference in complexity. i.e. a Button has a large Δ in complexity than a News Feed, but a Button has a small Δ in complexity vs a Simple Search.
+
+As more Stacks are added, the Complexity Δ between different Stacks should be similar. (i.e. `stack-1` to `stack-2` Complexity Δ should be similar to `stack-4` to `stack-5`)
 
 ## Optional Rules
 
