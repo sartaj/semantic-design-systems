@@ -13,9 +13,11 @@ This guide is to help create base guidelines for categorizing different componen
 
 For more details on creating and implementing design systems, check [Design Better's Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/designing-design-system)
 
-## Diagram & Formula
+## Diagram
 
 ![Semantic Design System Diagram](https://github.com/sartaj/semantic-design-systems/raw/master/assets/semantic-design-system.png)
+
+## Formula
 
 ```
 ∑𝟣…𝑛
