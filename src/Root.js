@@ -3,6 +3,8 @@ import { View, StyleSheet, Text } from  'react-native'
 
 import md from '../README.md'
 import marked from 'marked'
+
+import DesignStack from './DesignStack'
 import './markdown.web.css'
 
 const styles = StyleSheet.create({
@@ -17,11 +19,19 @@ const styles = StyleSheet.create({
     paddingLeft: '5vw'
   },
   coverText: {
+    flex: 1
+  },
+  coverTitle: {
     flex: 1,
-    textAlign: 'left',
     color: 'white',
     fontFamily: 'monospace',
     fontSize: '5vh'
+  },
+  coverDescription: {
+    flex: 1,
+    color: 'rgba(255,255,255,0.7)',
+    fontFamily: 'monospace',
+    fontSize: '3vh' 
   }
 })
 
@@ -44,9 +54,13 @@ export class Root extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.cover}>
-          <Text style={styles.coverText}>Semantic Design Systems</Text>
+          <View style={styles.converText}>
+            <Text style={styles.coverTitle}>Semantic Design Systems</Text>
+            <Text style={styles.coverDescription}>Generic rules for easier design pattern classifications.</Text>
+          </View>
         </View>
         <div className='markdownStyles' dangerouslySetInnerHTML={{__html: readme}}></div>
+        {/* TODO: <DesignStack /> */}
       </View>
     )
   }

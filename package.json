@@ -1,8 +1,13 @@
 {
+  "name": "semantic-design-systems",
+  "private": true,
   "dependencies": {
     "marked": "^0.3.12",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-native-web": "^0.3.1"
+  },
+  "devDependencies": {
+    "esops": "next"
   }
 }
