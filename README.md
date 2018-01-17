@@ -13,7 +13,7 @@ This guide is to help create base guidelines for categorizing different componen
 
 For more details on creating and implementing design systems, check [Design Better's Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/designing-design-system)
 
-## Guidelines
+## 3 Rules and a Formula
 
 ### Define the number of Stacks, from `𝟣-𝑛`
 
@@ -21,9 +21,9 @@ Each level in a design system can be considered a Stack. For example, Atomic Des
 
 A design system can have any number of Stacks, from 𝟣 to 𝑛, with each higher stack having less reusability and more specificity.
 
-### Categorize the complexity of patterns by `Specificity ↔ Reusability`
+### Categorize the complexity of patterns by `Specificity ↔ Dependency`
 
-Viewing specificity and reusability as a scale to identify complexity.
+While categorizing the complexity of patterns, they can be imagined as a scale between how specific a pattern is, and how depended upon a pattern is.
 
 Try to find a pattern in how specific a design is. In larger stack systems (4+ Stacks), `stack-𝑛` may be a single use pattern, like Pages in Atomic Design. In smaller systems (2 Stacks), `stack-2` may only be a bit more specific, like Pattern Components in Google's Material Design.
 
@@ -33,17 +33,31 @@ The amount of difference in complexity. i.e. a Button has a large Δ in complexi
 
 As more Stacks are added, the Complexity Δ between different Stacks should be similar. (i.e. `stack-1` to `stack-2` Complexity Δ should be similar to `stack-4` to `stack-5`)
 
+### Formula
+
+```
+∑𝟣…𝑛
+    complexityΔ(stack(𝑛), stack(𝑛﹢𝟣))
+  = complexityΔ(stack(𝑛﹢𝟣), stack(𝑛﹢𝟤))
+```
+
+### Diagram
+
+![Semantic Design System Diagram](assets/semantic-design-system.png)
+
+## Optional Rules
+
 ### Define if Stacks can import all or only direct parent Stacks
 
 Define which levels the patterns can import from. Can `stack-5` only import from `stack-4`? Or can it import a combination of One that comes to mind is "Can 5 only import from 4, or can it import 2, 4, & 5?".
 
-### Add additional definitions to Complexity for clarity if needed
+### Define if pattern count per stack matters
 
-While specificity may dictate complexity, additional definitions can help simplify the classification process. For example, an Atomic Design inspired system that incorporates branding and skins may have a `stack-1` that only allows colors/fonts/etc, but not structured basic components like Button.
+Can there be more Molecules than Atoms? These questions begin to matter more with more levels, like Atomic design. You can choose to add rules for this too.
 
-### Formula
+### Extend rules for clarity if needed
 
-**`(stack-𝟣 ...stack-𝑛) / complexity-Δ`**
+While specificity may dictate complexity, additional definitions can help simplify the classification process. For example, do you want to factor for `size`? Go ahead and extend the rules.
 
 ## Examples
 
