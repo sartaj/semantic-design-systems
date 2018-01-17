@@ -31961,7 +31961,7 @@ var Root = exports.Root = function (_Component) {
           { style: styles.cover },
           _react2.default.createElement(
             _View2.default,
-            { style: styles.converText },
+            { style: styles.coverText },
             _react2.default.createElement(
               _Text2.default,
               { style: styles.coverTitle },
@@ -32028,7 +32028,7 @@ exports.default = TextPropTypes;
 /* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/media/README.d457d264.md";
+module.exports = __webpack_require__.p + "static/media/README.4168b44a.md";
 
 /***/ }),
 /* 453 */
