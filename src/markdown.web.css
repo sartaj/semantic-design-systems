@@ -290,6 +290,7 @@ body > *:last-child {
        margin:0 auto;
     }
     .markdownStyles {
+        width: 854px;
         align-self: center;
         flex: 1;
         font-size: 2vmin;
