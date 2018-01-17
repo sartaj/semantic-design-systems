@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   cover: {
     height: '40vh',
-    flex: 1,
+    flex: 'auto',
     backgroundColor: 'black',
     flexDirection: 'row',
     alignItems: 'center',
