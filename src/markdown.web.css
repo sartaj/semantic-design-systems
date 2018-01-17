@@ -70,7 +70,7 @@ body > *:last-child {
     color: black; }
  
  h3 {
-    font-size: 18px; }
+    font-size: 20px; }
  
  h4 {
     font-size: 16px; }
@@ -83,7 +83,7 @@ body > *:last-child {
     font-size: 14px; }
  
  p, blockquote, ul, ol, dl, li, table, pre {
-    margin: 15px 0; }
+    margin: 15px 0px 15px 15px; }
  
  hr {
     border: 0 none;

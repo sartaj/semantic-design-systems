@@ -54,13 +54,12 @@ export class Root extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.cover}>
-          <View style={styles.converText}>
+          <View style={styles.coverText}>
             <Text style={styles.coverTitle}>Semantic Design Systems</Text>
             <Text style={styles.coverDescription}>Generic rules for easier design pattern classifications.</Text>
           </View>
         </View>
         <div className='markdownStyles' dangerouslySetInnerHTML={{__html: readme}}></div>
-        {/* TODO: <DesignStack /> */}
       </View>
     )
   }
