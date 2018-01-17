@@ -5,7 +5,7 @@
 Design systems are an organizational technique to categorize different patterns based varying complexity.
  They include [Google's Material Design](https://material.io/guidelines/), [Apple Human Interface Guidelines](https://developer.apple.com/design/), [IBM Carbon Design](http://carbondesignsystem.com/), [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/), & [Airbnb Design](https://airbnb.design/building-a-visual-language/).
 
-However, design systems don't have to be just visual. They can be used to organize any [symbolic system](https://en.wikipedia.org/wiki/Formal_grammar)/, whether its visual design languages, voice design languages (for voice based apps), human communication languages, etc.
+However, design systems don't have to be just visual. They can be used to organize any [symbolic system](https://en.wikipedia.org/wiki/Formal_grammar), whether its visual design languages, voice design languages (for voice based apps), human communication languages, etc.
 
 A semantic design system provides generic rules for easier design pattern classifications. It can be used with design systems like Atomic Design, Material Design, etc.
 
