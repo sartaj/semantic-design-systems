@@ -31900,7 +31900,7 @@ var styles = _StyleSheet2.default.create({
   container: {},
   cover: {
     height: '40vh',
-    flex: 1,
+    flex: 'auto',
     backgroundColor: 'black',
     flexDirection: 'row',
     alignItems: 'center',
