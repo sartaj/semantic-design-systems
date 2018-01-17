@@ -43,7 +43,7 @@ As more Stacks are added, the Complexity Δ between different Stacks should be s
 
 ### Diagram
 
-![Semantic Design System Diagram](assets/semantic-design-system.png)
+![Semantic Design System Diagram](https://github.com/sartaj/semantic-design-systems/raw/master/assets/semantic-design-system.png)
 
 ## Optional Rules
 
