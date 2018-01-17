@@ -11,19 +11,7 @@ A semantic design system provides generic rules for easier design pattern classi
 
 This guide is to help create base guidelines for categorizing different components.
 
-For more details on creating and implementing design systems, check [Design Better's Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/designing-design-system)
-
-## Diagram
-
-![Semantic Design System Diagram](https://github.com/sartaj/semantic-design-systems/raw/master/assets/semantic-design-system.png)
-
-## Formula
-
-```
-∑𝟣…𝑛
-    complexityΔ(stack(𝑛), stack(𝑛﹢𝟣))
-  = complexityΔ(stack(𝑛﹢𝟣), stack(𝑛﹢𝟤))
-```
+For more details on creating and implementing design systems, check the [Design Better's Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/designing-design-system).
 
 ## 3 Rules
 
@@ -58,6 +46,20 @@ Can there be more Molecules than Atoms? These questions begin to matter more wit
 ### Extend rules for clarity if needed
 
 While specificity may dictate complexity, additional definitions can help simplify the classification process. For example, do you want to factor for `size`? Go ahead and extend the rules.
+
+## Visuals
+
+### Diagram
+
+![Semantic Design System Diagram](https://github.com/sartaj/semantic-design-systems/raw/master/assets/semantic-design-system.png)
+
+### Formula For Nerds
+
+```
+∑𝟣…𝑛
+    complexityΔ(stack(𝑛), stack(𝑛﹢𝟣))
+  = complexityΔ(stack(𝑛﹢𝟣), stack(𝑛﹢𝟤))
+```
 
 ## Examples
 
