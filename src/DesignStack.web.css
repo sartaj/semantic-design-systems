@@ -1,0 +1,19 @@
+.DesignStackItemBackground {
+    filter: drop-shadow(0rem 0.2rem 0.6rem rgba(0,0,0,0.2));
+}
+.u-hideOnMobile {
+    display: none
+}
+
+@media only screen and (min-width : 500px) {
+    .u-hideOnMobile {
+        display: initial
+    }
+}
+
+.AnimationContext {
+    transition: transform 0.3s ease
+}
+.AnimationContext:hover {
+    transform: initial!important
+}
