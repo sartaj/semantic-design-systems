@@ -7,7 +7,7 @@ import marked from 'marked'
 import DesignStack from './DesignStack'
 import './markdown.web.css'
 
-const colorBlack = 'rgba(25,40,40, 1)'
+const colorBlack = 'rgba(80,80,80, 1)'
 const colorWhite = 'rgba(255,255,255,0.7)'
 const defaultStack = `Atoms
 Molecules

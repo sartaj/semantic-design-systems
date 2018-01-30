@@ -9,6 +9,10 @@
     "react-trianglify": "https://github.com/flexzuu/react-trianglify.git",
     "trianglify": "^1.2.0"
   },
+  "scripts": {
+    "dev": "esops dev github-pages",
+    "ship": "esops ship github-pages"
+  },
   "devDependencies": {
     "eslint-config-elmish": "^1.0.1",
     "esops": "next"
