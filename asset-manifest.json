@@ -1,7 +1,6 @@
 {
-  "icons-7c0fdc490914ad5e54763db4ef955066/icon.png": "icons-7c0fdc490914ad5e54763db4ef955066/manifest.webapp",
-  "runner.css": "static/css/runner.832960c1.css",
-  "runner.js": "static/js/runner.dc1add3eaa5e2e12bf03.js",
-  "static/media/README.md": "static/media/README.91b0e7e1.md",
-  "vendor.js": "static/js/vendor.dc1add3eaa5e2e12bf03.js"
+  "icons-dd97a4eaacbde43ae87131bb26a4749c/icon.png": "icons-dd97a4eaacbde43ae87131bb26a4749c/manifest.json",
+  "runner.css": "static/css/runner.ca51474c.css",
+  "runner.js": "static/js/runner.b09db0c07e6335dc5525.js",
+  "static/media/README.md": "static/media/README.e5a7c3fe.md"
 }
