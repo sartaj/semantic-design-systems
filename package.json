@@ -5,9 +5,12 @@
     "marked": "^0.3.12",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-native-web": "^0.3.1"
+    "react-native-web": "^0.3.1",
+    "react-trianglify": "https://github.com/flexzuu/react-trianglify.git",
+    "trianglify": "^1.2.0"
   },
   "devDependencies": {
+    "eslint-config-elmish": "^1.0.1",
     "esops": "next"
   }
 }

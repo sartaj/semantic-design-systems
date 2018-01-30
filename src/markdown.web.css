@@ -2,6 +2,16 @@
     padding: 10px 30px;
 }
 
+.u-hideOnMobile {
+    display: none
+}
+
+@media only screen and (min-width : 500px) {
+    .u-hideOnMobile {
+        display: initial
+    }
+}
+
 body {
     font-family: Helvetica, arial, sans-serif;
     font-size: 14px;

@@ -1,4 +1,4 @@
-# Semantic Design System
+# Create A Design System
 
 *(rev. 18 January, 2018)*
 
